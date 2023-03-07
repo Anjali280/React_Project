@@ -1,9 +1,15 @@
-import incCountAction from "./Redux/action.js";
+import { incCountAction, decCountAction } from "./Redux/action.js";
+// import decCountAction from "./Redux/action.js";
 import myStore from "./Redux/store.js";
-function inCount() {
+
+function inCount(data) {
   incCountAction(data);
+  console.log(myStore.getState());
 }
-function decCount() {}
+function decCount(data) {
+  decCountAction(data);
+  console.log(myStore.getState());
+}
 console.log(myStore.getState());
 inCount(5);
-decCount(5);
+decCount(1);
