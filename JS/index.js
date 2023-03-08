@@ -11,5 +11,5 @@ function decCount(data) {
   console.log(myStore.getState());
 }
 console.log(myStore.getState());
-inCount(5);
+inCount(6);
 decCount(1);
