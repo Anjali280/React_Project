@@ -25,7 +25,7 @@ function Login(props) {
       // alert("Logged In");
       fnLoggedIn({
         isLoggedIn: true,
-        user: "Kabir",
+        user: "Anjali",
       });
     } else {
       alert("Please Check the Credentials");
