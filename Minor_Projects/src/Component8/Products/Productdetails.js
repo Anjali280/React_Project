@@ -12,8 +12,8 @@ function Productdetails(props) {
       .then((data) => {
         console.log(data);
         setState(data);
-      });
-  }, []);
+      }, []);
+  });
 
   return (
     <div style={{ textAlign: "center" }}>

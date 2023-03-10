@@ -32,6 +32,7 @@ import MenClothing from "./Component8/Products/MenClothing";
 import WomenClothing from "./Component8/Products/WomenClothing";
 import Productdetails from "./Component8/Products/Productdetails";
 import PrivateRoute from "./Component8/PrivateRoute/PrivateRoute";
+import Input from "./Component8/Redux/Input";
 
 function App() {
   const [state, setState] = useState({
@@ -63,6 +64,14 @@ function App() {
               element={
                 <PrivateRoute>
                   <Counter />
+                </PrivateRoute>
+              }
+            />
+            <Route
+              path="/redux"
+              element={
+                <PrivateRoute>
+                  <Input />
                 </PrivateRoute>
               }
             />
