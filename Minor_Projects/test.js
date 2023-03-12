@@ -1,5 +1,6 @@
 function ArrayAddition(arr) {
   const max = Math.max(...arr);
+  console.log(max);
 
   function isSumPossibleUsingArrayEl(num, list) {
     if (num == 0) {
