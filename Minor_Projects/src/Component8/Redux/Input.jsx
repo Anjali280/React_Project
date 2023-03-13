@@ -1,6 +1,6 @@
 import React from "react";
 
-function Input(props) {
+export default function Input(props) {
   return (
     <div style={{ padding: "180px" }}>
       <h2>Input Component</h2>
@@ -9,5 +9,3 @@ function Input(props) {
     </div>
   );
 }
-
-export default Input;
