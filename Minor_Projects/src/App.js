@@ -33,6 +33,7 @@ import WomenClothing from "./Component8/Products/WomenClothing";
 import Productdetails from "./Component8/Products/Productdetails";
 import PrivateRoute from "./Component8/PrivateRoute/PrivateRoute";
 import Input from "./Component8/Redux/Input";
+import Display from "./Component8/Redux/Display";
 
 function App() {
   const [state, setState] = useState({
@@ -72,6 +73,7 @@ function App() {
               element={
                 <PrivateRoute>
                   <Input />
+                  <Display />
                 </PrivateRoute>
               }
             />

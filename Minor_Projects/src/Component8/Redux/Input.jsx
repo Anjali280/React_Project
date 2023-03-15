@@ -16,7 +16,7 @@ export default function Input(props) {
         onChange={(event) => {
           setState(event.target.value);
         }}
-      />{" "}
+      />
       <span></span>
       <button onClick={sendDataToAction}>Submit</button>
     </div>

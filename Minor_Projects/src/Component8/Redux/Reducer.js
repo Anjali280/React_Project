@@ -2,7 +2,7 @@ let initialState = "Dummy data";
 
 const Reducer = (state = initialState, action) => {
   if (action.type === "NAME") {
-    state = action.name;
+    state = action.payload;
   }
   return state;
 };
