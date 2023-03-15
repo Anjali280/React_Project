@@ -18,7 +18,7 @@ export default function Input(props) {
         }}
       />{" "}
       <span></span>
-      <button onclick={sendDataToAction}>Submit</button>
+      <button onClick={sendDataToAction}>Submit</button>
     </div>
   );
 }
